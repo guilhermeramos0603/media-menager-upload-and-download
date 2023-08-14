@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:media_manager/features/login/presentation/controller/loginController.dart';
 import 'package:media_manager/features/login/presentation/widgets/customLoginButtonComponent.dart';
+
+import '../controller/LoginController.dart';
 
 class LoginPage extends StatelessWidget {
   LoginPage({super.key});
@@ -33,7 +34,7 @@ class LoginPage extends StatelessWidget {
                 height: 30,
               ),
               CustomLoginButtonComponent(
-                onPressed: () => controller.login(controller.userName),
+                onPressed: () => controller.login(context, controller.userName),
               )
             ]),
       ),
