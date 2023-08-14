@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "513737464591",
+    "project_id": "media-manager-680e3",
+    "storage_bucket": "media-manager-680e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513737464591:android:72347093c89edebaef7c7a",
+        "android_client_info": {
+          "package_name": "com.example.media_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513737464591-b8l1d6qe9gc697h2n9fo9jfgfkrafsq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGVnWCuDYPRznyJaZIO-b3G_TCePRpn1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513737464591-b8l1d6qe9gc697h2n9fo9jfgfkrafsq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
