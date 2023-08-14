@@ -37,9 +37,14 @@ class ListPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Container(
-                    padding: const EdgeInsets.only(left: 20, top: 20),
-                    child: const Text("teste"),
+                  InkWell(
+                    onTap: () {
+                      Navigator.pushNamed(context, "/itemPage");
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.only(left: 20, top: 20),
+                      child: const Text("teste"),
+                    ),
                   )
                 ],
               ),
@@ -59,11 +64,10 @@ class ListPage extends StatelessWidget {
           children: [
             Container(
               padding: const EdgeInsets.only(top: 40, left: 20),
-              child: const Text("Digite seu nome para Cadastrar",
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold
-              ),),
+              child: const Text(
+                "Digite seu nome para Cadastrar",
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              ),
             ),
             Container(
                 padding: const EdgeInsets.symmetric(horizontal: 20),
