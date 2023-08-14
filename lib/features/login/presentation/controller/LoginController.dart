@@ -11,11 +11,11 @@ class LoginController {
     return true;
   }
 
-  login(String name) {
+  login(BuildContext context, String name) {
     final checkUserAuth = checkAuthUser(name);
 
     if (checkUserAuth == true) {
-      Navigator.push;
+      Navigator.pushNamed(context, "/itemPage");
     }
   }
 }
