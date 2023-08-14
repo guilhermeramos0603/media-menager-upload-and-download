@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:media_manager/features/item/presentation/widgets/CardImage.dart';
 
 class ItemPage extends StatefulWidget {
   const ItemPage({super.key});
@@ -29,17 +30,7 @@ class _ItemPageState extends State<ItemPage> {
                   onPressed: () {}, child: const Text("Adicionar Video")),
               ElevatedButton(
                   onPressed: () {}, child: const Text("Adicionar Audio")),
-              Container(
-                height: 200,
-                width: 350,
-                decoration: const BoxDecoration(
-                  image: DecorationImage(
-                    image: AssetImage('assets/images.jpg'),
-                    fit: BoxFit.fill,
-                  ),
-                  shape: BoxShape.circle,
-                ),
-              ),
+              const CardImage(),
               Container(
                 color: Colors.blue,
                 height: 200,
